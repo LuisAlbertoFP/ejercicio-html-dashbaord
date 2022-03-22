@@ -18,14 +18,15 @@ body {
       color: #333;
       max-width: 200px;
       min-width: 200px; 
+      position: relative;
   
       
   }
 
-  .boton:hover {
-      background-color: lightgray;
-      
-  }
+/*   .boton:hover {
+      background-color: lightgray; 
+  } */
+
   .boton img{
     display: block;
     width: 100%;
@@ -33,3 +34,14 @@ body {
   }
 
 
+ .overlay {
+   position: absolute;
+   left: 0;
+   right: 0;
+   top: 0;
+   bottom: 0;
+ }
+.overlay:hover {
+   background-color: gray;
+   opacity:0.2;
+ }
